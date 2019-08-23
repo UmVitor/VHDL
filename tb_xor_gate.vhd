@@ -15,7 +15,7 @@
       );
   end  component;
   
-  --sinais auxiliares para  interconexcao ao processo de estimulo
+  --sinais auxiliares para  interconexao ao processo de estimulo
   
   signal  i_1 : std_logic;
   signal  i_2 : std_logic;
@@ -24,7 +24,7 @@
   
   begin
   
-  -- Intancia do componente xor_gate para interconxao do componente com o processo de estimilo 
+  -- Intancia do componente xor_gate para interconexao do componente com o processo de estimilo 
   
   xor1 : xor_gate port map (in1 => i_1, in2 => i_2, o => open);
     
